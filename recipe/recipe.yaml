@@ -40,7 +40,6 @@ requirements:
         - expat
         - fontconfig
   run:
-    - nebi ${{ version }}.*
     - menuinst >=2.1
   ignore_run_exports:
     from_package:
